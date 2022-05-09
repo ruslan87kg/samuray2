@@ -8,11 +8,18 @@
   }
   &__item {
     list-style: none;
+    margin-bottom: 100px;
   }
   &__link {
     text-decoration: none;
     color: white;
     font-size: 30px;
     text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+  }
+  &__link:hover,
+  &__link.active {
+    border-color: yellow;
   }
 }

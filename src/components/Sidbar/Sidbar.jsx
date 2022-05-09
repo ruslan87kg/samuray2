@@ -1,29 +1,30 @@
 import React from "react";
 import "./sidbar.scss";
+import { NavLink } from "react-router-dom";
 
 const sidbar = () => {
   return (
     <div className="sidbar">
       <div className="sidbar__menu">
         <div className="sidbar__item">
-          <a className="sidbar__link" href="/#">
+          <NavLink className="sidbar__link" to="/profile">
             profile
-          </a>
+          </NavLink>
         </div>
         <div className="sidbar__item">
-          <a className="sidbar__link" href="/#">
+          <NavLink className="sidbar__link" to="/photo">
             photo
-          </a>
+          </NavLink>
         </div>
         <div className="sidbar__item">
-          <a className="sidbar__link" href="/#">
+          <NavLink className="sidbar__link" to="/music">
             music
-          </a>
+          </NavLink>
         </div>
         <div className="sidbar__item">
-          <a className="sidbar__link" href="/#">
+          <NavLink className="sidbar__link" to="/contact">
             contact
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>
