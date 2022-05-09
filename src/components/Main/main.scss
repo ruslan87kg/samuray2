@@ -1,0 +1,9 @@
+.main {
+  background-color: gray;
+  grid-area: m;
+  &__im {
+    min-width: 1000px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
