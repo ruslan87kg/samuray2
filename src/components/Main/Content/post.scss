@@ -1,5 +1,6 @@
 .post {
-  color: yellow;
+  background-color: white;
+  color: red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,6 +10,7 @@
     height: 30px;
     border-radius: 50%;
     object-fit: cover;
+    grid-area: p;
   }
   &__item span {
     display: block;
